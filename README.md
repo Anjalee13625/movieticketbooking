@@ -1,53 +1,44 @@
 # 🎬 Movie Ticket Booking System
 
-A **Tkinter-based desktop application** for managing movie ticket bookings. This project simulates a real-world ticketing workflow with separate roles for **Admin** and **Booking Clerk**, offering a user-friendly interface and robust functionality.
+## 📌 Project Description
+
+The Movie Ticket Booking System is a desktop-based application developed using **Python** and **Tkinter**.  
+The system provides a graphical user interface (GUI) to manage movie listings, show schedules, and ticket bookings efficiently.
+
+The application supports **role-based access** with separate functionalities for **Admin** and **Booking Clerk** users.  
+Admins can manage movies and shows, while booking clerks can handle ticket reservations and cancellations.
+
+The system ensures real-time seat availability tracking and provides a structured approach to managing movie ticket operations.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-### 👨‍💼 Admin Panel
-- Add new movies with details (name, genre, language, type).
-- Add shows for movies with start/end times and seat capacity.
-- View all movies and their scheduled shows.
-- Check detailed show information for a specific movie.
+### Admin Module
+- Add new movies with genre, language, and format (2D/3D)
+- Add and manage movie shows with timing and seat capacity
+- View all current and upcoming movies with show details
+- View shows for a specific movie
 
-### 🎫 Booking Clerk Panel
-- Book tickets for customers by show ID.
-- Cancel existing bookings by ticket ID.
-- View all upcoming bookings.
-- Access the list of current and upcoming movies.
-
-### 🔐 Role-Based Login
-- **Admin Login:** `username: admin`, `password: admin123`
-- **Clerk Login:** `username: clerk`, `password: clerk123`
+### Booking Clerk Module
+- Book tickets for available shows
+- Cancel existing ticket bookings
+- View all upcoming bookings
+- Check real-time seat availability
 
 ---
 
-## 🖥️ Tech Stack
-- **Python 3**
-- **Tkinter** for GUI
-- **Custom TicketSystem module** for backend logic
+## 🛠 Technologies Used
+
+- Python
+- Tkinter (GUI)
+- Object-Oriented Programming (OOP)
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run the Project
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-ticket-booking.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd movie-ticket-booking
-   ```
-3. Run the application:
-   ```bash
-   python main.py
-   ```
+   git clone https://github.com/your-username/movie-ticket-booking-system.git
 
----
-
-
----
-
-Would you like me to also draft **README.md descriptions for your other two GitHub projects** so all three have consistent, professional documentation?
